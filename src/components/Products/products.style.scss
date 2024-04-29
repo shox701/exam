@@ -1,0 +1,36 @@
+.products-container {
+  max-width: 1560px;
+  margin: 150px auto;
+  margin-top: 114px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 35px;
+}
+
+.text-content {
+  h2 {
+    font-weight: 500;
+    font-size: 64px;
+    color: #224f34;
+    margin-top: 114px;
+    text-align: center;
+    margin-top: 185px;
+    font-family: "Roboto Slab", sans-serif;
+  }
+
+  ul {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    margin-top: 70px;
+    list-style-type: none;
+
+    li {
+      font-weight: 500;
+      font-size: 22px;
+      text-transform: uppercase;
+      color: #454545;
+    }
+  }
+}
